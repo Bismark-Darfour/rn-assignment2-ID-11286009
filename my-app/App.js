@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        My name is Darfour-Oduro Bismark
+        My name is <Text style={styles.boldText}>Darfour-Oduro Bismark</Text>
       </Text>
       <StatusBar style="auto" />
     </View>
@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 24, // Increase font size
+  },
+  boldText: {
+    fontWeight: 'bold', // Make "Darfour-Oduro Bismark" bold
   },
 });
 
