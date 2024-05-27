@@ -17,7 +17,7 @@ This is a simple React Native application that displays a customized text messag
 
 ## Screenshot
 A screenshot of the application running on expo go on ios 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./screenshot.png)
 
 ## Student ID
 11286009
